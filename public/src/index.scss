@@ -1,0 +1,261 @@
+@font-face {
+  font-family: IRANYekan;
+  font-style: normal;
+  font-weight: bold;
+  src: url('./Assets/font/YekanBakh-Bold.eot');
+  src: url('./Assets/font/YekanBakh-Bold.eot?#iefix') format('embedded-opentype'),
+    /* FF39+,Chrome36+, Opera24+*/ url('./Assets/font/YekanBakh-Bold.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('./Assets/font/YekanBakh-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANYekan;
+  font-style: normal;
+  font-weight: 300;
+  src: url('./Assets/font/YekanBakh-Thin.eot');
+  src: url('./Assets/font/YekanBakh-Thin.eot?#iefix') format('embedded-opentype'),
+    /* FF39+,Chrome36+, Opera24+*/ url('./Assets/font/YekanBakh-Thin.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('./Assets/font/YekanBakh-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANYekan;
+  font-style: normal;
+  font-weight: normal;
+  src: url('./Assets/font/YekanBakh-Regular.eot');
+  src: url('./Assets/font/YekanBakh-Regular.eot?#iefix') format('embedded-opentype'),
+    /* FF39+,Chrome36+, Opera24+*/ url('./Assets/font/YekanBakh-Regular.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('./Assets/font/YekanBakh-Regular.ttf') format('truetype');
+}
+
+/* Latin fonts (Roboto) */
+@font-face {
+  font-family: IRANYekanEn;
+  font-style: normal;
+  font-weight: bold;
+  src: url('./Assets/font/en/YekanBakh-Bold.eot');
+  src: url('./Assets/font/en/YekanBakh-Bold.eot?#iefix') format('embedded-opentype'),
+    /* IE6-8 */ url('./Assets/font/en/YekanBakh-Bold.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('./Assets/font/en/YekanBakh-Bold.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('./Assets/font/en/YekanBakh-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANYekanEn;
+  font-style: normal;
+  font-weight: 300;
+  src: url('./Assets/font/en/YekanBakh-Thin.eot');
+  src: url('./Assets/font/en/YekanBakh-Thin.eot?#iefix') format('embedded-opentype'),
+    /* IE6-8 */ url('./Assets/font/en/YekanBakh-Thin.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('./Assets/font/en/YekanBakh-Thin.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('./Assets/font/en/YekanBakh-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANYekanEn;
+  font-style: normal;
+  font-weight: normal;
+  src: url('./Assets/font/en/YekanBakh-Regular.eot');
+  src: url('./Assets/font/en/YekanBakh-Regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-8 */ url('./Assets/font/en/YekanBakh-Regular.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('./Assets/font/en/YekanBakh-Regular.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('./Assets/font/en/YekanBakh-Regular.ttf') format('truetype');
+}
+
+html,
+body,
+.main-wrapper {
+  height: 100%;
+  margin: 0;
+}
+
+.Toastify__toast {
+  border-radius: 4px !important;
+  margin-top: 55px;
+  margin-bottom: 0;
+  margin-left: 10px;
+  box-shadow: none !important;
+  .Toastify__close-button {
+    border: 1px solid lightgrey;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Toastify__toast-body {
+    font-family: IRANYekan, IRANYekanEn;
+  }
+}
+
+.cke_rtl .cke_toolbar {
+  float: left !important;
+}
+
+.cke_chrome {
+  border-radius: 4px;
+  border-color: #f2f4f8 !important;
+}
+.category-tree {
+  height: calc(100% - 57px) !important;
+  margin: 8px 0 0 0;
+}
+#html-template,
+#jsx-template {
+  position: fixed;
+  top: 100%;
+}
+.cke_dialog_ui_hbox {
+  .cke_dialog_ui_button {
+    width: 100%;
+    text-align: center !important;
+  }
+}
+
+.cke_reset_all .cke_rtl *,
+.cke_notification_message {
+  font-family: IRANYekan, IRANYekanEn !important;
+}
+.cke_single_page {
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.cke_dialog_footer {
+  padding: 15px !important;
+}
+.cke_dialog_ui_input_text {
+  input {
+    border: 1px solid #bcbcbc !important;
+    border-radius: 3px;
+    &:focus {
+      border-color: #5374a9 !important;
+    }
+  }
+}
+.ImagePreviewBox {
+  width: 100% !important;
+  table {
+    width: 100%;
+    height: 100%;
+    a {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+.cke_dialog_ui_input_select {
+  width: 100% !important;
+}
+
+.dots {
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  position: absolute;
+  left: 25px;
+  right: 0;
+}
+
+.hidden-dialog {
+  opacity: 0;
+  z-index: 0 !important;
+}
+
+.cke_dialog_background_cover {
+  z-index: 1201 !important;
+}
+
+.pod-psace-upload-list {
+  table {
+    direction: rtl;
+  }
+}
+
+.cke_dialog_background_cover {
+  background-color: transparent !important;
+}
+table {
+  &.cke_dialog {
+    box-shadow: 0px 0px 5px #a5a5a5;
+  }
+}
+
+.cke_button,
+.cke_rtl a.cke_combo_button {
+  margin-right: 6px !important;
+  margin-left: 4px !important;
+  background-color: #ededed !important;
+  border: 1px solid #d8d7d7 !important;
+  border-radius: 5px;
+  padding: 4px 6px !important;
+  cursor: pointer !important;
+  &:hover {
+    background-color: #69bbff !important;
+    border-color: #69bbff !important;
+  }
+}
+.cke_combo:after,
+.cke_rtl .cke_toolgroup a.cke_button:last-child:after,
+.cke_rtl .cke_toolgroup a.cke_button.cke_button_disabled:hover:last-child:after {
+  display: none;
+}
+
+.cke_button__mdfile {
+  .cke_button__mdfile_icon {
+    background-image: url('./Assets/toolbar-icons/md.svg') !important;
+    background-position: center;
+    background-size: cover;
+  }
+}
+.cke_button__customimage {
+  .cke_button__customimage_icon {
+    background-image: url('./Assets/toolbar-icons/img.svg') !important;
+    background-position: center;
+    background-size: cover;
+  }
+}
+.podspace-upload-button {
+  .MuiButtonBase-root {
+    background-color: transparent;
+    .MuiButton-label {
+      color: #5374a9 !important;
+    }
+    &:hover {
+      .MuiButton-label {
+        color: #fff !important;
+      }
+    }
+  }
+}
+.date-picker-wrapper {
+  width: 100%;
+  z-index: 0 !important;
+  &.focuse {
+    z-index: 100 !important;
+  }
+}
+$filesType: docx, doc, xls, xlsx, gif, jpg, jpeg, mkv, mp3, mp4, pdf, png, rar, txt, unknown, zip, mov, webm;
+
+@each $fileType in $filesType {
+  &.file-#{$fileType} {
+    background-image: url('./Assets/files/#{$fileType}.png');
+  }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}

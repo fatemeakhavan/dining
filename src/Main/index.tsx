@@ -129,7 +129,7 @@ const Index = (props: IProps & RouteComponentProps) => {
             <img src={logo} width="220px" alt="Sakku-logo" />
           </Box>
           <List>
-            <MainListItems isMonitoring={isMonitoring} isAdmin={isAdmin} />
+            <MainListItems isMonitoring={isMonitoring} isAdmin={isAdmin} handleClick={handleDrawerClose} />
           </List>
         </Drawer>
         <main className={classes.content}>
